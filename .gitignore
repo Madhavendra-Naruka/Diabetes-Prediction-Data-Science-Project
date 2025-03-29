@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+Thumbs.db
+archive.zip  # If this is a backup, you likely don't need it in Git
+diabetes_prediction_dataset.csv # If you choose to manage it outside of Git
+*.pkl # Include if generating model files as part of the code
